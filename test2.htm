@@ -1,11 +1,15 @@
 <html>
+<head>
+<script type="text/javascript">
+function TarihiGoster()
+{
+document.getElementById("deneme").innerHTML=Date();
+}
+</script>
 <body>
 
-<h1><text align="center" /> aResim-Resim-Resim</h1>
-<p><img border="10" src="resim2.gif" width="304" height="228" />
-<img border="10" src="http://www.w3schools.com/images/w3schools_green.jpg" width="304" height="228"
-</p>
-
-
+<p id="deneme">Tarih görüntülenecek</p>
+<button type="button" onclick="TarihiGoster()">Tarihi Görüntüle</button> 
 </body>
+</head>
 </html>
