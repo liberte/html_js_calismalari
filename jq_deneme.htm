@@ -1,0 +1,40 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready (function(){
+	$(".flip").click(function(){
+		$(".panel").slideToggle("slow");
+		})
+		$(".arkaplan").animate({width:997},"slow");
+		$(".arkaplan").animate({height:600},"slow");
+	
+})
+</script>
+
+</head>
+<body>
+<div class="arkaplan" style="background:#98bf21;height:100px;width:100px;position:relative" >
+<style type="text/css">
+div.panel,p.flip
+{
+margin:0px;
+padding:10px;
+text-align:center;
+background:#e5eecc;
+border:solid 3px #c3c3c3;
+}
+div.panel
+{
+height 100px;
+display:none
+}
+</style>
+<div class="panel">
+<p>JQuery Slide Tool - JQuery Slide Tool - JQuery Slide Tool</p>
+<p>Staj Calismasi***Staj Calismasi***Staj Calismasi</p>
+</div>
+<p class="flip">Paneli Gizle/Goster</p> 
+</div>
+</body>
+</html>
